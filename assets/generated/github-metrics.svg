@@ -33,13 +33,13 @@
   <text class="muted" x="876" y="32" text-anchor="end" font-size="12">refreshed 2026-09-07</text>
 
   <text class="muted" x="28" y="91" font-size="12">OWNED REPOSITORIES</text>
-  <text class="text" x="28" y="132" font-size="34" font-weight="700">16</text>
+  <text class="text" x="28" y="132" font-size="34" font-weight="700">17</text>
   <text class="muted" x="220" y="91" font-size="12">ACTIVE / 90 DAYS</text>
-  <text class="text" x="220" y="132" font-size="34" font-weight="700">8</text>
+  <text class="text" x="220" y="132" font-size="34" font-weight="700">9</text>
   <text class="text" x="28" y="218" font-size="34" font-weight="700">3</text>
   <text class="muted" x="28" y="180" font-size="12">BACKEND CASE STUDIES</text>
   <text class="muted" x="220" y="180" font-size="12">LATEST PUSH</text>
-  <text class="text" x="220" y="216" font-size="18" font-weight="700">2026-09-03</text>
+  <text class="text" x="220" y="216" font-size="18" font-weight="700">2026-09-07</text>
 
   <text class="text" x="440" y="91" font-size="15" font-weight="700">portfolio language footprint</text>
   <rect class="accent" x="440" y="117" width="197.9" height="8" rx="4"/><rect class="blue" x="637.9310887645377" y="117" width="160.4" height="8" rx="4"/><rect class="purple" x="798.3421724317577" y="117" width="23.0" height="8" rx="4"/><rect class="orange" x="821.3790492753188" y="117" width="10.9" height="8" rx="4"/><rect class="muted" x="832.2303387842148" y="117" width="7.8" height="8" rx="4"/>
