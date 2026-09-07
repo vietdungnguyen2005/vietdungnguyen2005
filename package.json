@@ -1,0 +1,14 @@
+{
+  "name": "vietdungnguyen2005-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node scripts/render-profile.mjs",
+    "test": "node --test scripts/render-profile.test.mjs",
+    "verify": "npm test && npm run render"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

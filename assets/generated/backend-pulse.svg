@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title description">
+  <title id="title">Backend request pulse by vietdungnguyen2005</title>
+  <desc id="description">An animated request travels through validation, transaction, PostgreSQL and evidence.</desc>
+  <style>
+
+    :root { color-scheme: light dark; }
+    .surface { fill: #f6f8fa; stroke: #d0d7de; }
+    .panel { fill: #ffffff; stroke: #d0d7de; }
+    .grid { stroke: #d8dee4; }
+    .text { fill: #1f2328; }
+    .muted { fill: #59636e; }
+    .accent { fill: #1f883d; }
+    .accent-stroke { stroke: #1f883d; }
+    .blue { fill: #0969da; }
+    .purple { fill: #8250df; }
+    .orange { fill: #bc4c00; }
+    @media (prefers-color-scheme: dark) {
+      .surface { fill: #0d1117; stroke: #30363d; }
+      .panel { fill: #161b22; stroke: #30363d; }
+      .grid { stroke: #21262d; }
+      .text { fill: #e6edf3; }
+      .muted { fill: #8b949e; }
+      .accent { fill: #3fb950; }
+      .accent-stroke { stroke: #3fb950; }
+      .blue { fill: #58a6ff; }
+      .purple { fill: #bc8cff; }
+      .orange { fill: #ffa657; }
+    }
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+
+    .route { fill: none; stroke-width: 2; stroke-dasharray: 5 7; opacity: .65; }
+    .node { stroke-width: 1; }
+    .packet { filter: drop-shadow(0 0 5px rgba(63,185,80,.75)); }
+    .cursor { animation: blink 1.1s steps(2, jump-none) infinite; }
+    .scan { animation: scan 5s linear infinite; opacity: .11; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes scan { from { transform: translateX(-260px); } to { transform: translateX(1100px); } }
+    @media (prefers-reduced-motion: reduce) { .cursor, .scan { animation: none; } }
+  </style>
+  <defs>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle class="grid" cx="1" cy="1" r="1"/></pattern>
+    <linearGradient id="scanGradient" x1="0" x2="1"><stop stop-color="#3fb950" stop-opacity="0"/><stop offset=".5" stop-color="#3fb950"/><stop offset="1" stop-color="#3fb950" stop-opacity="0"/></linearGradient>
+    <path id="requestRoute" d="M112 174 C180 174 178 122 248 122 S322 174 392 174 S466 122 536 122 S610 174 680 174 S754 122 824 122 S876 174 920 174"/>
+  </defs>
+  <rect class="surface" x="1" y="1" width="998" height="258" rx="12"/>
+  <rect x="1" y="1" width="998" height="258" rx="12" fill="url(#dots)" opacity=".65"/>
+  <rect class="scan" x="0" y="0" width="230" height="260" fill="url(#scanGradient)"/>
+
+  <text class="muted" x="35" y="38" font-size="13">~/backend-lab</text>
+  <text class="text" x="35" y="76" font-size="23" font-weight="700">$ protect the invariant, then ship</text><rect class="accent cursor" x="543" y="56" width="10" height="24"/>
+  <text class="muted" x="965" y="38" text-anchor="end" font-size="11">build 2026-09-07</text>
+
+  <use href="#requestRoute" class="route accent-stroke"/>
+  <circle class="accent packet" r="7"><animateMotion dur="5.6s" repeatCount="indefinite"><mpath href="#requestRoute"/></animateMotion></circle>
+  <circle class="blue packet" r="4"><animateMotion dur="5.6s" begin="-2.8s" repeatCount="indefinite"><mpath href="#requestRoute"/></animateMotion></circle>
+
+  <g text-anchor="middle">
+    <rect class="panel node" x="55" y="145" width="114" height="58" rx="8"/><text class="text" x="112" y="170" font-size="13" font-weight="700">request</text><text class="muted" x="112" y="188" font-size="10">untrusted input</text>
+    <rect class="panel node" x="191" y="93" width="114" height="58" rx="8"/><text class="text" x="248" y="118" font-size="13" font-weight="700">validate</text><text class="muted" x="248" y="136" font-size="10">boundary first</text>
+    <rect class="panel node" x="335" y="145" width="114" height="58" rx="8"/><text class="text" x="392" y="170" font-size="13" font-weight="700">service</text><text class="muted" x="392" y="188" font-size="10">business rules</text>
+    <rect class="panel node" x="479" y="93" width="114" height="58" rx="8"/><text class="text" x="536" y="118" font-size="13" font-weight="700">transaction</text><text class="muted" x="536" y="136" font-size="10">atomic change</text>
+    <rect class="panel node" x="623" y="145" width="114" height="58" rx="8"/><text class="text" x="680" y="170" font-size="13" font-weight="700">postgres</text><text class="muted" x="680" y="188" font-size="10">source of truth</text>
+    <rect class="panel node" x="767" y="93" width="114" height="58" rx="8"/><text class="text" x="824" y="118" font-size="13" font-weight="700">assert</text><text class="muted" x="824" y="136" font-size="10">evidence</text>
+    <rect class="panel node" x="887" y="145" width="66" height="58" rx="8"/><text class="accent" x="920" y="179" font-size="20" font-weight="700">✓</text>
+  </g>
+  <text class="muted" x="35" y="235" font-size="11">Java 21 · Spring Boot · PostgreSQL · Redis · tests over claims</text>
+</svg>
