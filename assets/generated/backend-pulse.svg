@@ -48,7 +48,7 @@
 
   <text class="muted" x="35" y="38" font-size="13">~/backend-lab</text>
   <text class="text" x="35" y="76" font-size="23" font-weight="700">$ protect the invariant, then ship</text><rect class="accent cursor" x="543" y="56" width="10" height="24"/>
-  <text class="muted" x="965" y="38" text-anchor="end" font-size="11">build 2026-09-09</text>
+  <text class="muted" x="965" y="38" text-anchor="end" font-size="11">build 2026-09-10</text>
 
   <use href="#requestRoute" class="route accent-stroke"/>
   <circle class="accent packet" r="7"><animateMotion dur="5.6s" repeatCount="indefinite"><mpath href="#requestRoute"/></animateMotion></circle>
