@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-labelledby="title description">
   <title id="title">Live GitHub signals for vietdungnguyen2005</title>
-  <desc id="description">Owned repositories, recent activity, backend case studies and selected portfolio languages. Refreshed 2026-09-20.</desc>
+  <desc id="description">Owned repositories, recent activity, backend case studies and selected portfolio languages. Refreshed 2026-09-21.</desc>
   <style>
     :root { color-scheme: light dark; }
     .surface { fill: #f6f8fa; stroke: #d0d7de; }
@@ -30,7 +30,7 @@
   <rect class="surface" x="1" y="1" width="898" height="248" rx="12"/>
   <path class="grid" opacity=".55" d="M20 54H880M420 70V225"/>
   <circle class="accent" cx="25" cy="27" r="5"/><text class="text" x="40" y="33" font-size="17" font-weight="700">github://live-signals</text>
-  <text class="muted" x="876" y="32" text-anchor="end" font-size="12">refreshed 2026-09-20</text>
+  <text class="muted" x="876" y="32" text-anchor="end" font-size="12">refreshed 2026-09-21</text>
 
   <text class="muted" x="28" y="91" font-size="12">OWNED REPOSITORIES</text>
   <text class="text" x="28" y="132" font-size="34" font-weight="700">17</text>
@@ -39,7 +39,7 @@
   <text class="text" x="28" y="218" font-size="34" font-weight="700">3</text>
   <text class="muted" x="28" y="180" font-size="12">BACKEND CASE STUDIES</text>
   <text class="muted" x="220" y="180" font-size="12">LATEST PUSH</text>
-  <text class="text" x="220" y="216" font-size="18" font-weight="700">2026-09-19</text>
+  <text class="text" x="220" y="216" font-size="18" font-weight="700">2026-09-20</text>
 
   <text class="text" x="440" y="91" font-size="15" font-weight="700">portfolio language footprint</text>
   <rect class="accent" x="440" y="117" width="197.9" height="8" rx="4"/><rect class="blue" x="637.9310887645377" y="117" width="160.4" height="8" rx="4"/><rect class="purple" x="798.3421724317577" y="117" width="23.0" height="8" rx="4"/><rect class="orange" x="821.3790492753188" y="117" width="10.9" height="8" rx="4"/><rect class="muted" x="832.2303387842148" y="117" width="7.8" height="8" rx="4"/>
