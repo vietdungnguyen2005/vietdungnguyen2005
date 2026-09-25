@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-labelledby="title description">
   <title id="title">Live GitHub signals for vietdungnguyen2005</title>
-  <desc id="description">Owned repositories, recent activity, backend case studies and selected portfolio languages. Refreshed 2026-09-24.</desc>
+  <desc id="description">Owned repositories, recent activity, backend case studies and selected portfolio languages. Refreshed 2026-09-25.</desc>
   <style>
     :root { color-scheme: light dark; }
     .surface { fill: #f6f8fa; stroke: #d0d7de; }
@@ -30,7 +30,7 @@
   <rect class="surface" x="1" y="1" width="898" height="248" rx="12"/>
   <path class="grid" opacity=".55" d="M20 54H880M420 70V225"/>
   <circle class="accent" cx="25" cy="27" r="5"/><text class="text" x="40" y="33" font-size="17" font-weight="700">github://live-signals</text>
-  <text class="muted" x="876" y="32" text-anchor="end" font-size="12">refreshed 2026-09-24</text>
+  <text class="muted" x="876" y="32" text-anchor="end" font-size="12">refreshed 2026-09-25</text>
 
   <text class="muted" x="28" y="91" font-size="12">OWNED REPOSITORIES</text>
   <text class="text" x="28" y="132" font-size="34" font-weight="700">17</text>
